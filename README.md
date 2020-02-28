@@ -53,4 +53,4 @@ Note that the package could be updated at any time at the current stage. To enjo
 The development of this package was supported by USDA-NRCS Agreement No. NR193A750016C001 through the Cooperative Ecosystem Studies Units network. Any opinions, findings, conclusions, or recommendations expressed are those of the author(s) and do not necessarily reflect the view of the U.S. Department of Agriculture. 
 
 ## Contact   
-Bowen Chen, PhD (bwchen@illinois.edu)
+[Bowen Chen](https://sites.google.com/view/bwchen), PhD (bwchen@illinois.edu)

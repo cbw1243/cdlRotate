@@ -10,7 +10,7 @@ install.packages("devtools") # Run this if the devtools package is not installed
 devtools::install_github("cbw1243/cdlRotate")  
 
 ## Note   
-The package is initially released on Feb. 27. I am seeking for user feedbacks to improve on the package. So, any feedback is very welcomed. Just a reminder: I could make changes to the package. So please use the most recent version of the package. **Install again before using it**. 
+The package is initially released on Feb. 27, 2020. I am seeking for user feedbacks to improve on the package. So, any feedback is very welcomed. Just a reminder: I could make changes to the package. So please use the most recent version of the package. **Install again before using it**. 
 
 Contact: Bowen Chen, PhD (bwchen@illinois.edu) 
 

@@ -2,7 +2,7 @@
 
 The [Cropland Data Layer (CDL)](https://www.nass.usda.gov/Research_and_Science/Cropland/sarsfaqs2.php) is a raster, geo-referenced, crop-specific land cover data layer, and it provides crop-specific land cover classification product of more than 100 crop categories grown in the United States over time. The CDL is administered by the National Agricultural Statistics Service (NASS) of the United States Department of Agriculture. 
 
-The CDL data are freely accesible such as in [CropScape](https://nassgeodata.gmu.edu/CropScape/), a web interface that provides data downloading and data visualization. However, the CropScape does not provide the service of bulk downloading or calculation of land use changes over time, which could lead to inconvience in empirical works. The development of the `cdlRotate` aims to fill this gap. 
+All historical CDL products are available for use and free for download through [CropScape](https://nassgeodata.gmu.edu/CropScape/), a web interface. However, the CropScape does not provide the service of bulk downloading or calculation of land use changes over time, which could lead to inconvience in empirical works. The development of the `cdlRotate` aims to fill this gap. 
 
 Specifically, the objectives of the `cdlRotate` package are threefold. First, it aims to provide easy access to data for any Area Of Interest (AOI) specified by users. The AOI could be a county, a triangle, a rectangle, or a single point. Second, it aims to calculate land use changes, including crop rotations (e.g., corn -- soybeans) over time for an AOI. Third, it visualizes the data on land use changes for an AOI. 
 

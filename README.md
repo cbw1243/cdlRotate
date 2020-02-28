@@ -1,4 +1,6 @@
-## Access Cropland Data Layer (CDL) data and calculate land use changes over time
+## cdlRotate: Access Cropland Data Layer (CDL) data and calculate land use changes over time
+
+The Cropland Data Layer (CDL) is a raster, geo-referenced, crop-specific land cover data layer that provides crop-specific land cover classification product of more than 100 crop categories grown in the United States over time. It is provided by the National Agricultural Statistics Service (NASS) of the United States Department of Agriculture. The [CropScape](https://nassgeodata.gmu.edu/CropScape/) is a an web interface to access the visualize the CDL data. 
 
 ## Description    
 The R package allows users to download CDL data for any area of interest and also calculate land use changes over time, including crop rotations (e.g., corn - soybeans). 

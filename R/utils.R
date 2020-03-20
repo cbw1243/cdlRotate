@@ -1,6 +1,13 @@
 countydata <- function(fips, year, mat = FALSE){
-  url <- paste0('https://nassgeodata.gmu.edu/webservice/nass_data_cache/byfips/CDL_', year, '_', fips, '.tif')
-  data <- raster::raster(url)
+  url <- paste0('https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLFile?year=',
+                year, '&fips=', fips)
+  data <- httr::GET(url)
+  dataX <- httr::content(data, 'text')
+
+  num <- gregexpr('returnURL', dataX)
+  url2 <- substr(dataX, num[[1]][1]+10, num[[1]][2]-3)
+
+  data <- raster::raster(url2)
   return(data)
 }
 

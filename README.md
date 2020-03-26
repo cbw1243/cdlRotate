@@ -1,3 +1,5 @@
+# Note: This package should not used anymore (since March 26 2020). Please use the CropScapeR package instead: ~\url{https://github.com/cbw1243/cdlRotate}
+
 ## cdlRotate: Access Cropland Data Layer (CDL) data and calculate land use changes over time
 
 The [Cropland Data Layer (CDL)](https://www.nass.usda.gov/Research_and_Science/Cropland/sarsfaqs2.php) is a raster, geo-referenced, crop-specific land cover data layer, and it provides crop-specific land cover classification product of more than 100 crop categories grown in the United States over time. The CDL is administered by the National Agricultural Statistics Service (NASS) of the United States Department of Agriculture. 

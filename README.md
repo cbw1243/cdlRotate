@@ -1,4 +1,6 @@
-# Note: This package should not used anymore (since March 26 2020). Please use the CropScapeR package instead: ~\url{https://github.com/cbw1243/cdlRotate}
+# Important update
+
+This package should not used anymore (since March 26 2020). Please use the CropScapeR package [(GitHub link here)](https://github.com/cbw1243/CropScapeR) instead.
 
 ## cdlRotate: Access Cropland Data Layer (CDL) data and calculate land use changes over time
 
